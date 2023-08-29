@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcul du nombre de caractères en temps réél</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calcul du nombre de caractères en temps réel</h1>
+    </header>
+    <main class="main__content">
+      <textarea
+        id="textarea"
+        class="textarea"
+        placeholder="Ecrivez votre texte ici..."
+        maxlength="250"
+      ></textarea>
+      <section class="counter__container">
+        <p>
+          Nombre de caractères :
+          <span class="total-counter"></span>
+        </p>
+        <p>
+          Restant :
+          <span class="remaining-counter"></span>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <span>Site crée par aperbet56</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
