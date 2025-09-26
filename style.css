@@ -17,7 +17,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    background-color: #f06176;
+    background-color: #fffffe;
+    color: #0d0d0d;
 }
 
 header {
@@ -35,8 +36,8 @@ h1 {
 
 .main__content {
     flex-grow: 1;
-    background-color: #ffb6c1;
-    width: 400px; 
+    background-color: #eff0f3;
+    width: 400px;
     padding: 20px;
     margin: 5px;
     border-radius: 12px;
@@ -51,32 +52,34 @@ h1 {
     font-size: 18px;
     padding: 10px;
     border: 2px solid #a9a9a9;
+    background-color: #fffffe;
     border-radius: 5px;
     margin: 25px 0;
 }
 
 .textarea:focus {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    ;
 }
-  
+
 .counter__container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 5px;
 }
-  
+
 .counter__container p {
     font-size: 18px;
     color: #808080;
 }
-  
+
 .total-counter {
-    color: #745eff;
+    color: #ff8e3c;
 }
-  
+
 .remaining-counter {
-    color: #ff0000;
+    color: #d9376e;
 }
 
 footer {
@@ -98,6 +101,7 @@ footer span {
     body {
         background-color: #ffb6c1;
     }
+
     .main__content {
         width: 100%;
         box-shadow: none;
@@ -108,7 +112,7 @@ footer span {
         line-height: 1.4;
     }
 
-    .counter__container{
+    .counter__container {
         flex-direction: column;
         align-items: center;
     }
