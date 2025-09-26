@@ -95,11 +95,11 @@ footer span {
     text-align: center;
 }
 
-/**** Responsive design ****/
+/**** Responsive design version mobile ****/
 
-@media screen and (max-width: 472px) {
+@media screen and (max-width: 572px) {
     body {
-        background-color: #ffb6c1;
+        background-color: #eff0f3;
     }
 
     .main__content {
