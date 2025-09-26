@@ -13,7 +13,7 @@ Projet qui permet à un internaute de saisir un texte de 250 caractères maximun
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/real_time_character_counter/
 
 ## Projet développé avec
 
